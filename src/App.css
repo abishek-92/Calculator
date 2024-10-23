@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main_page{
+  background-color: rgb(224, 176, 249);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal_main{
+  height: 95%;
+  width: 25%;
+  /* border: 2px solid black; */
+}
+
+.cal_display{
+  background-color:rgba(14, 14, 14, 0.982);
+  border: 15px solid black;
+  height: 46%;
+  font-size: 20px;
+  color: aliceblue;
+  overflow: auto;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: end;
+}
+
+.cal_ipt{
+  height: 100%;
+  width: 100%;
+}
+
+.cal_btn{
+  background-color: rgba(14, 14, 14, 0.982);
+  padding-top: 4px;
+  height: 50%;
+  display: flex;
+}
+
+.btn_1{
+  background-color: rgba(14, 14, 14, 0.982);
+/* background-color: aliceblue; */
+  height: 100%;
+  width: 75%;
+}
+
+.btn_2{
+  /* background-color: rgb(42, 138, 221); */
+  height: 100%;
+  width: 25%;
+  padding-right: 9px;
+  padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_grp{
+  height: 18%;
+  width: 98%;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn_grp_u{
+  padding-bottom: 5px;
+  display: flex;
+justify-content: space-evenly;
+
+}
+
+.button {
+  background-color: red;
+  width: 30%;
+  padding-left: 6px;
+  border-radius: 50%;
+  
+}
+
+.button:active{
+  background-color: red;
+  transform: scale(0.98);
+}
