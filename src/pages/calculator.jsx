@@ -44,6 +44,7 @@ function Calculator() {
         setDisplayvalue(eval(displayValue))
     }
 
+    //jsx for the calculator
     return (
         <div className='main_page' >
             <div className='cal_main'>
